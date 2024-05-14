@@ -12,17 +12,17 @@
 <body class="body">
    <header class="ps-5 pe-5 ms-5 me-5">
         <nav class="row navbar navbar-expand-lg">
-            <div class="container d-flex justify-content-center gap-5">
-                <a class="navbar-brand text-secondary" href="#">nicolevelásquez</a>
+            <div class="container d-flex justify-content-between gap-5">
+                <a class="navbar-brand text-secondary" href="./index.html">nicolevelásquez</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse ps-5 justify-content-end" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link active text-secondary" aria-current="page" href="#">Inicio</a>
-                        <a class="nav-link text-secondary" href="#">Mis habilidades</a>
-                        <a class="nav-link text-secondary" href="#">Proyectos</a>
-                        <a class="nav-link text-secondary" href="#">Contacto</a>
+                        <a class="nav-link active text-secondary" aria-current="page" href="./index.html">Inicio</a>
+                        <a class="nav-link text-secondary" href="#habilidades">Mis habilidades</a>
+                        <a class="nav-link text-secondary" href="#proyectos">Proyectos</a>
+                        <a class="nav-link text-secondary" href="#contacto">Contacto</a>
                     </div>
                 </div>
             </div>
@@ -30,34 +30,34 @@
    </header>
 
     <main class="ps-5 pe-5">
-        <section class="container-fluid card mb-3 mt-3 border-white" style="max-width: 80%;">
-            <div class="row g-0">
-                <div class="col-md-4 align-self-center">
+        <section class="container card mb-3 mt-3 border-white">
+            <div class="row d-flex justify-items-center">
+                <div class="col-lg-6 col-md-12 d-grid justify-content-center align-self-center">
                     <img src="./assets/img/developer.png" class="img-fluid rounded-start" alt="Nicole Velásquez desarrolladora web">
                 </div>
-                <div class="col-md-8 align-content-center">
-                    <div class="card-body">
+                <div class="col-lg-6 col-md-12 d-flex justify-content-center align-content-center">
+                    <div class="card-body align-content-center">
                         <h1 class="card-title text-secondary titulo">Soy Nicole Velásquez</h1>
                         <h2 class="card-subtitle text-primary"><strong>Desarrolladora FrontEnd</strong> & <strong>Cientista Política</strong></h2>
                         <p class="card-text text-secondary me-lg-5">Escucho tus ideas y las transformo en soluciones funcionales y estéticamente hermosas.</p>
-                        <a href="#" class="btn btn-secondary text-danger fs-5">Contáctame</a>
+                        <a href="#contacto" class="btn btn-secondary text-danger fs-5">Contáctame</a>
                     </div>
                 </div>
             </div>
         </section>
 
         <section class="container-fluid justify-content-center pt-5">
-            <div class="row pb-3">
-                <h3 class="row justify-content-center text-primary titulo-2">Mis habilidades</h3>
+            <div class="row d-grid justify-content-center pb-3">
+                <h3 class="text-primary titulo-2" id="habilidades">Mis habilidades</h3>
             </div>
-            <div class="row row-cols-lg-2 row-cols-md-4 row-cols-sm-2 justify-content-center ms-5 me-5">
-                <div class="col-lg-6 col-md-6 col-sm-4 d-md-flex justify-content-between">
+            <div class="row ms-5 me-5">
+                <div class="col-6 d-md-flex justify-content-between">
                     <p class="labels-text text-secondary"><i class="fa-brands p-2 fa-html5"></i>HTML</p>
                     <p class="labels-text text-secondary"><i class="fa-brands p-2 fa-css3-alt"></i>CSS</p>
                     <p class="labels-text text-secondary"><i class="fa-brands p-2 fa-sass"></i>Sass</p>
                     <p class="labels-text text-secondary"><i class="fa-brands p-2 fa-bootstrap"></i>Bootstrap</p>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-4 d-md-flex justify-content-between">
+                <div class="col-6 d-md-flex justify-content-between">
                     <p class="labels-text text-secondary"><i class="fa-brands p-2 fa-git-alt"></i>Git</p>
                     <p class="labels-text text-secondary"><i class="fa-brands p-2 fa-github"></i>GitHub</p>
                     <p class="labels-text text-secondary"><i class="fa-brands p-2 fa-js"></i>JavaScript</p>
@@ -66,12 +66,12 @@
             </div>
         </section>
 
-        <section class="container justify-content-center">
-            <div class="row">
-                <h3 class="row justify-content-center pt-4 pb-3 titulo-2 text-primary">Mis proyectos</h3>
+        <section class="container justify-content-center pt-4">
+            <div class="row d-grid justify-content-center pb-3">
+                <h3 class="titulo-2 text-primary" id="proyectos">Mis proyectos</h3>
             </div>
-            <div class="row row-cols-md-2 row-cols-sm-2 justify-content-center">
-                <div class="col-lg-6 col-md-6 col-sm-4 d-md-flex justify-content-around gap-4">
+            <div class="row justify-content-center">
+                <div class="col-6 d-md-flex justify-content-around gap-4">
                     <div class="card border-white">
                         <img src="./assets/img/meetcoffee.png" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -86,7 +86,7 @@
                     </div>   
                 </div>
 
-                <div class="col-lg-6 col-md-6 col-sm-4 d-md-flex justify-content-around gap-4">
+                <div class="col-6 d-md-flex justify-content-around gap-4">
                     <div class="card border-white">
                         <img src="./assets/img/meetcoffee.png" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -103,37 +103,38 @@
             </div>
         </section>
 
-        <section>
-            <div class="row pb-3">
-                <h3 class="row justify-content-center titulo-2 pt-4 text-primary">Contáctame</h3>
+        <section class="container-fluid pt-4">
+            <div class="row d-grid justify-content-center pb-3">
+                <h3 class="titulo-2 text-primary" id="contacto">Contáctame</h3>
             </div>
-            <div class="d-flex gap-4">
-                <div class="row w-50">
-                    <div class="col">
-                      <input type="text" class="form-control" placeholder="Nombre" aria-label="name">
+            <div class="row">
+                <div class="col-lg-6 col-sm-12 pb-3">
+                    <div class="p-1">
+                        <input type="text" class="form-control" placeholder="Nombre" aria-label="name">
                     </div>
-                    <div class="col">
-                      <input type="text" class="form-control" placeholder="Apellido" aria-label="last name">
+                    <div class="p-1">
+                        <input type="text" class="form-control" placeholder="Apellido" aria-label="last name">
                     </div>
-                    <div class="mt-4 mb-3">
+                    <div class="p-1">
                         <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Tu Email">
                     </div>
-                    <div class="mb-3">
+                    <div class="p-1">
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escribe tu mensaje"></textarea>
                     </div>
-                    <div class="col-12">
+                    <div class="p-1">
                         <button class="btn btn-primary ps-5 pe-5 text-white" type="submit">Enviar</button>
-                      </div>
+                    </div>
                 </div>
-                <div class="row">
-                    <div class="col-2">
+
+                <div class="col-lg-6 p-5 col-sm-12 d-flex gap-3">
+                    <div class="row d-grid align-content-evenly">
                         <i class="fa-solid fa-phone"></i>
                         <i class="fa-solid fa-envelope"></i>
                         <i class="fa-brands fa-linkedin"></i>
                         <i class="fa-brands fa-github"></i>
                         <i class="fa-brands fa-instagram"></i>
                     </div>
-                    <div class="col-10">
+                    <div class="row d-grid align-content-evenly">
                         <p class="texto-contacto">+56912345678</p>
                         <p class="texto-contacto">nicole@velasquez.cl</p>
                         <p class="texto-contacto">linkedin/nicovelbaz</p>
@@ -141,14 +142,16 @@
                         <p class="texto-contacto">Yogamablecl</p>
                     </div>
                 </div>
-            </div>
-            
-
-            
-        </section>
-
-        
+                
+            </div>           
+        </section>        
     </main>
+
+    <footer class="container">
+        <div class="d-flex align-items-center justify-content-around p-5">
+            <p class="texto-contacto align-self-center">www.nicolevelasquez.com</p>
+        </div>
+    </footer>
 
 
 
